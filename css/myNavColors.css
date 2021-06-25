@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon{
+  color: #000;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: rgba(255,255,255,0.51);
+}
+
+body {
+	background-color: #000000;
+}
