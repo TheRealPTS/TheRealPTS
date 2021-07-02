@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: 'alien_leagueregular';
-    src: url('https://therealpts.github.io/fonts/alienleague-webfont.woff2') format('woff2'),
-         url('https://therealpts.github.io/fonts/alienleague-webfont.woff') format('woff'),
-         url('https://therealpts.github.io/fonts/alienleague-webfont.ttf') format('truetype');
+    src: url('alienleague-webfont.woff2') format('woff2'),
+         url('alienleague-webfont.woff') format('woff'),
+         url('alienleague-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -88,12 +88,4 @@
     font-weight: normal;
     font-style: normal;
 
-}
-
-h1,h2,h3,h4,h5 {
-	font-family: "Alien League 3D", "Alien League II 3D";
-}
-
-p {
-	font-family: "Alien League";
 }
