@@ -17,74 +17,9 @@
 
 @font-face {
     font-family: 'alien_league_3dregular';
-    src: url('https://therealpts.github.io/fonts/alienleague3d-webfont.woff2') format('woff2'),
-         url('https://therealpts.github.io/fonts/alienleague3d-webfont.woff') format('woff'),
-         url('https://therealpts.github.io/fonts/alienleague3d-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'alien_league_3d_italicitalic';
-    src: url('https://therealpts.github.io/fonts/alienleague3dital-webfont.woff2') format('woff2'),
-         url('https://therealpts.github.io/fonts/alienleague3dital-webfont.woff') format('woff'),
-         url('https://therealpts.github.io/fonts/alienleague3dital-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'alien_league_boldbold';
-    src: url('https://therealpts.github.io/fonts/alienleaguebold-webfont.woff2') format('woff2'),
-         url('https://therealpts.github.io/fonts/alienleaguebold-webfont.woff') format('woff'),
-         url('https://therealpts.github.io/fonts/alienleaguebold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'alien_league_bold_italicBdIt';
-    src: url('https://therealpts.github.io/fonts/alienleaguebolditalic-webfont.woff2') format('woff2'),
-         url('https://therealpts.github.io/fonts/alienleaguebolditalic-webfont.woff') format('woff'),
-         url('https://therealpts.github.io/fonts/alienleaguebolditalic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'alien_league_condensedCn';
-    src: url('https://therealpts.github.io/fonts/alienleaguecond-webfont.woff2') format('woff2'),
-         url('https://therealpts.github.io/fonts/alienleaguecond-webfont.woff') format('woff'),
-         url('https://therealpts.github.io/fonts/alienleaguecond-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'alien_league_condensed_itCnIt';
-    src: url('https://therealpts.github.io/fonts/alienleaguecondital-webfont.woff2') format('woff2'),
-         url('https://therealpts.github.io/fonts/alienleaguecondital-webfont.woff') format('woff'),
-         url('https://therealpts.github.io/fonts/alienleaguecondital-webfont.ttf') format('truetype');
+    src: url('alienleague3d-webfont.woff2') format('woff2'),
+         url('alienleague3d-webfont.woff') format('woff'),
+         url('alienleague3d-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
