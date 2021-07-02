@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Videos</title>
+    <title>Schedule</title>
     <!-- PTS icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -34,6 +34,7 @@
 			  font-family: "alien_leagueregular";
 		  }
 	  </style>
+	  <script type="application/javascript" src="js/calander.js"></script>
   </head>
 	<!--Main Navigation-->
 <header>
@@ -139,76 +140,10 @@
 </div>
     </div>
   </nav>
-  <!-- Background image -->
-  <div
-    id="intro"
-    class="bg-image"
-    style="background-image: image('img/backgroundImg.png');
-      height: 100vh;">
-	  <img src="img/backgroundImg2.png" class="img-fluid" alt="logo">
-    <div class="mask text-white" style="background-color: rgba(0, 0, 0, 0.8);">
-      <div class="container d-flex align-items-center text-center h-100" style="100px">
-        <div>
-          <h1 class="mb-5">Our top 3 based on views</h1>
-          <p class="h3">
-            we know it's not saying much but this is the best we have so far, please help yourself and keep in mind. Viewer Discretion is advised
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Background image -->
-</header>
-  <body>
-	  <div class="card-group">
-  <div class="card hover-zoom">
-	  <a href="https://www.youtube.com/watch?v=Tbhud9Nyb0Q" target="_blank" data-mdb-animation-reset="true" data-mdb-animation="pulse">
-    <img
-      src="img/card1.png"
-      class="card-img-top"
-      alt="..."
-    />
-	  </a>
-    <div class="card-body">
-      <h5 class="card-title">Grand Theft Auto</h5>
-      <p class="card-text">
-        Although one of the first uploaded, it's still a fan and personal favorite of mine.
-      </p>
-    </div>
-  </div>
-  <div class="card hover-zoom">
-	  <a href="https://youtu.be/BE2LDdjLQX0" target="_blank">
-    <img
-      src="img/card2.png"
-      class="card-img-top"
-      alt="..."
-    />
-</a>
-    <div class="card-body">
-      <h5 class="card-title">Announcement</h5>
-      <p class="card-text">
-        What better way to announce yourself to the world than a compilation of things to come?
-      </p>
-    </div>
-  </div>
-  <div class="card hover-zoom">
-	  <a href="https://youtu.be/oRXuZLcexAk" target="_blank">
-    <img
-      src="img/card3.png"
-      class="card-img-top"
-      alt="..."
-    />
-</a>
-    <div class="card-body">
-      <h5 class="card-title">Raft</h5>
-      <p class="card-text">
-        I think it was the thumbnail that brought people in but this one is pretty chill compared to our other videos.
-      </p>
-    </div>
-  </div>
-</div>
-    <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+	</header>
+<body>
+<div class="calendar" id="calendar-7" data-mdb-readonly="true"></div>
+	<script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
   </body>
